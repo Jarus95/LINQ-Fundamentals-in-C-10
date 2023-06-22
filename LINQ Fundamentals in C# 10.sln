@@ -5,8 +5,6 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "Entities\DataLayer.csproj", "{C4C6C0E4-A629-4343-9072-267CD3208452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WHERE", "Lesson-1  Loops and LINQ\WHERE.csproj", "{AAE5A58D-02BC-4F84-8EDC-784DBF718424}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQSamples.Common", "LINQSamples.Common\LINQSamples.Common.csproj", "{71F1BFD6-F872-477F-BF5B-54AD3BCA7D93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson-1  Loops and LINQ", "Lesson-1  Loops and LINQ", "{0E0794EF-8E98-4EEA-9339-6C7A1FC48EA6}"
@@ -23,10 +21,6 @@ Global
 		{C4C6C0E4-A629-4343-9072-267CD3208452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4C6C0E4-A629-4343-9072-267CD3208452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4C6C0E4-A629-4343-9072-267CD3208452}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAE5A58D-02BC-4F84-8EDC-784DBF718424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAE5A58D-02BC-4F84-8EDC-784DBF718424}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAE5A58D-02BC-4F84-8EDC-784DBF718424}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAE5A58D-02BC-4F84-8EDC-784DBF718424}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71F1BFD6-F872-477F-BF5B-54AD3BCA7D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71F1BFD6-F872-477F-BF5B-54AD3BCA7D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F1BFD6-F872-477F-BF5B-54AD3BCA7D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,7 +34,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AAE5A58D-02BC-4F84-8EDC-784DBF718424} = {0E0794EF-8E98-4EEA-9339-6C7A1FC48EA6}
 		{CCB6E25C-20A5-43AB-A612-20E7609F1A41} = {0E0794EF-8E98-4EEA-9339-6C7A1FC48EA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
