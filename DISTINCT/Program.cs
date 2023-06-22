@@ -1,19 +1,22 @@
-﻿//SELECT * FROM Products WHERE ListPrice > 1000
+﻿//SELECT DISTINCT Color FROM Products
+//Unique value
+
+
 
 using DataLayer.Entities;
 using LINQSamples;
-
+using System.Linq;
 
 ViewModelBase viewModelBase = new ViewModelBase();
 
 //loop
-List<Product> list_loop = new();
+List<string> list_loop = new();
 List<Product> products_loop = viewModelBase.GetProducts();
 foreach (Product product in products_loop)
 {
-    if (product.ListPrice > 1000)
+    if (!list_loop.Contains(product.Color))
     {
-        list_loop.Add(product);
+        list_loop.Add(product.Color);
     }
 }
 
@@ -21,7 +24,7 @@ foreach (Product product in products_loop)
 
 
 List<Product> products = viewModelBase.GetProducts();
-var list = (from prod in products where prod.ListPrice > 1000 select prod).ToList();
+var list = (from prod in products select prod.Color).Distinct().ToList();
 Console.WriteLine();
 
 
