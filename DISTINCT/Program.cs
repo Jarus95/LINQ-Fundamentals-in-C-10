@@ -8,11 +8,11 @@ using LINQSamples;
 using System.Linq;
 
 ViewModelBase viewModelBase = new ViewModelBase();
+List<Product> products = viewModelBase.GetProducts();
 
 //loop
 List<string> list_loop = new();
-List<Product> products_loop = viewModelBase.GetProducts();
-foreach (Product product in products_loop)
+foreach (Product product in products)
 {
     if (!list_loop.Contains(product.Color))
     {
@@ -23,7 +23,7 @@ foreach (Product product in products_loop)
 //LINQ
 
 
-List<Product> products = viewModelBase.GetProducts();
+
 var list = (from prod in products select prod.Color).Distinct().ToList();
 Console.WriteLine();
 
