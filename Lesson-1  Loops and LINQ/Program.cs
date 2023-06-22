@@ -16,7 +16,7 @@ foreach (Product product in products_loop)
         list_loop.Add(product);
     }
 }
-
+ 
 //LINQ
 
 
