@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LINQSamples.Common\LINQSamples.Common.csproj" />
+    <ProjectReference Include="..\..\LINQSamples.Common\LINQSamples.Common.csproj" />
   </ItemGroup>
 
 </Project>

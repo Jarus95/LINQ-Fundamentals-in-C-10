@@ -6,18 +6,19 @@ List<Product> products = viewModelBase.GetProducts();
 List<Product> listQuery = new();
 List<Product> listMethod = new();
 // Linq query syntax
-listQuery = (from prod in products select new Product
-{
-    ProductID = prod.ProductID,
-    ListPrice = prod.ListPrice
-    
-}).ToList();
+listQuery = (from prod in products
+             select new Product
+             {
+                 ProductID = prod.ProductID,
+                 ListPrice = prod.ListPrice
+
+             }).ToList();
 //linq method syntax
 listMethod = products.Select(x => new Product
 {
     ProductID = x.ProductID,
     ListPrice = x.ListPrice
-    
+
 
 }).ToList();
 
