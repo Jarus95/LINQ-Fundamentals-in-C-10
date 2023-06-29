@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting Data on a Single Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting Data in Descending Order", "Lesson-3 Use LINQ to Order Data\Sorting Data in Descending Order\Sorting Data in Descending Order.csproj", "{E4386444-4BDE-457E-9652-87CAA3AB2C8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agregate", "Lesson-1  Loops and LINQ_\Agregate\Agregate.csproj", "{38E2AADD-18E5-4F43-8501-87A9243462BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct", "Lesson-1  Loops and LINQ_\Distinct\Distinct.csproj", "{A5CBACCB-DE5A-4B08-AF75-7977F2B9ED53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Where", "Lesson-1  Loops and LINQ_\Where\Where.csproj", "{55CCECA7-366B-4C4C-93B0-0F729784EA3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +85,18 @@ Global
 		{E4386444-4BDE-457E-9652-87CAA3AB2C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4386444-4BDE-457E-9652-87CAA3AB2C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4386444-4BDE-457E-9652-87CAA3AB2C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E2AADD-18E5-4F43-8501-87A9243462BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E2AADD-18E5-4F43-8501-87A9243462BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E2AADD-18E5-4F43-8501-87A9243462BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E2AADD-18E5-4F43-8501-87A9243462BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CBACCB-DE5A-4B08-AF75-7977F2B9ED53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CBACCB-DE5A-4B08-AF75-7977F2B9ED53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CBACCB-DE5A-4B08-AF75-7977F2B9ED53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CBACCB-DE5A-4B08-AF75-7977F2B9ED53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CCECA7-366B-4C4C-93B0-0F729784EA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CCECA7-366B-4C4C-93B0-0F729784EA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CCECA7-366B-4C4C-93B0-0F729784EA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CCECA7-366B-4C4C-93B0-0F729784EA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

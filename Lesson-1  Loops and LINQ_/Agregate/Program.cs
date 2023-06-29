@@ -14,7 +14,7 @@ List<Product> products = viewModelBase.GetProducts();
 decimal min = decimal.MaxValue;
 foreach (Product product in products)
 {
-    if(product.ListPrice < min)
+    if (product.ListPrice < min)
     {
         min = product.ListPrice;
     }
